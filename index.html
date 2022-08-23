@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="components.css">
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="Globalstyle.css">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://kit.fontawesome.com/dcc0def279.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="nav">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="index.html">
+                    <img src="images/mylogo.png" class="logo">
+                </a>
+                <nav>
+                    <div class="nav-icon" onclick="navopen()">                       
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"  viewBox="0 0 24 24" fill="none" stroke="currentColor"   stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <line x1="3" y1="12" x2="21" y2="12" />
+                            <line x1="3" y1="6" x2="21" y2="6" />
+                            <line x1="3" y1="18" x2="21" y2="18" />
+                        </svg>
+                    </div>
+                    <div class="nav-bgoverlay" onclick="navclose()"></div>
+                    <ul class="nav-list">
+                        <div class="nav-close" onclick="navclose()">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                <line x1="18" y1="6" x2="6" y2="18" />
+                                <line x1="6" y1="6" x2="18" y2="18" />
+                            </svg>
+                        </div>
+                        <div class="nav-listwrapper">
+                            <li>
+                                <a href="index.html" class="nav-link">Home</a>
+                            </li>
+                            <li>
+                                <a href="menu.html" class="nav-link">Menu</a>
+                            </li>
+                            <li>
+                                <a href="about.html" class="nav-link">About</a>
+                            </li>
+                            <li>
+                                <a href="contact.html" class="nav-link">Contact</a>
+                            </li>
+                            <li>
+                                <a href="booking.html" class="btn primary-btn">Book Table</a>
+                            </li>
+                        </div>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </div>
+    <section id="hero" style="margin-top: -150px;">
+        <div class="container">
+            <div class="hero-wrapper">
+                <div class="hero-left" data-aos="fade-left" data-aos-duration="1000">
+                    <div class="hero-left-wrapper">
+                        <h1 class="hero-header">
+                            The flavor of tradition
+                        </h1>
+                        <p class="hero-desc">
+                            We are a multi-cuisine restaurant offering a wide variety of food experience in both casual and fine dining environment.
+                        </p>
+                        <div class="hero-btn">
+                            <a href="#" class="btn primary-btn">Explore Menu</a>
+                            <a href="booking.html" class="btn">Book Table</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="hero-right" data-aos="fade-right" data-aos-duration="1000">
+                    <div class="hero-right-wrapper">
+                        <img src="images/pexels-anna-tukhfatullina-food-photographerstylist-2638026-removebg.png" class="hero-image">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="store-info" data-aos="fade-up" data-aos-duration="1000">
+        <div class="container">
+            <div class="store-info-wrapper" style="margin-top: -150px;">
+                <div class="store-info-item">
+                    <div class="store-info-icon">
+                        <i class="fa-solid fa-clock"></i>
+                    </div>
+                    <h3 class="store-info-header">10 AM - 7 PM</h3>
+                    <p class="sotre-info-desc">Opening Hour</p>
+                </div>
+                <div class="store-info-item">
+                    <div class="store-info-icon">
+                        <i class="fa-solid fa-map-location-dot"></i>
+                    </div>
+                    <h3 class="store-info-header">Qazvin, Felestin</h3>
+                    <p class="sotre-info-desc">Adress</p>
+                </div>
+                <div class="store-info-item">
+                    <div class="store-info-icon">
+                        <i class="fa-solid fa-phone-volume"></i>
+                    </div>
+                    <h3 class="store-info-header">+98-34234</h3>
+                    <p class="sotre-info-desc">Call Now</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="our-specials" data-aos="fade-up" data-aos-duration="1000">
+        <div class="container">
+            <div class="our-specials-wrapper">
+                <div class="our-specials-left">
+                    <div class="our-specials-item">
+                        <div class="our-specials-image">
+                            <img src="images/pexels-sharon-mccutcheon-1191639.jpg">
+                        </div>
+                        <h2 class="our-specials-header">Sweet Potato Fries Bowl</h2>
+                        <h3 class="our-specials-price">$18</h3>
+                        <div class="our-specials-stars">
+                            <img src="images/3star.png">
+                        </div>
+                        <p class="our-specials-desc">These Sweet Potato Fries bowl are a glorious, messy plate of goodness. Crispy sweet potato fries loaded with lots of fresh summer vegetables and a lime ranch. By adding a seasoning blend with chipotle powder, garlic, and onion, these spicy sweet potato fries are full of flavor.</p>
+                    </div>
+                    <div class="our-specials-item">
+                        <div class="our-specials-image">
+                            <img src="images/pexels-sharon-mccutcheon-1191639.jpg">
+                        </div>
+                        <h2 class="our-specials-header">Sweet Potato Fries Bowl</h2>
+                        <h3 class="our-specials-price">$18</h3>
+                        <div class="our-specials-stars">
+                            <img src="images/3star.png">
+                        </div>
+                        <p class="our-specials-desc">These Sweet Potato Fries bowl are a glorious, messy plate of goodness. Crispy sweet potato fries loaded with lots of fresh summer vegetables and a lime ranch. By adding a seasoning blend with chipotle powder, garlic, and onion, these spicy sweet potato fries are full of flavor.</p>
+                    </div>
+                </div>
+                <div class="our-specials-right">
+                    <h2 class="our-special-item-header">
+                        Our Specials
+                    </h2>
+                    <p class="our-specials-item-desc">
+                        All of our food is prepared daily at our restaurants to ensure the highest quality, freshest meals are delivered to our customers
+                    </p>
+                    <a class="btn primary-btn" href="booking.html">Book Table</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="top-dishes" style="margin-top: -130px;" data-aos="fade-up" data-aos-duration="1000">
+        <div class="container">
+            <h2 class="top-dishes-title">Top Dishes</h2>
+            <div class="top-dishes-wrapper">
+                <div class="top-dishes-item">
+                    <div class="top-dishes-item-img">
+                        <img src="images/pexels-silvia-trigo-1296170.jpg">
+                    </div>
+                    <div class="top-dishes-info">
+                        <h3 class="top-dishes-item-title">Vegan salad bowl</h3>
+                        <h3 class="top-dishes-item-price">$12</h3>
+                        <div class="top-dishes-threestars">
+                            <img src="images/3star.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="top-dishes-item">
+                    <div class="top-dishes-item-img">
+                        <img src="images/pexels-silvia-trigo-1296170.jpg">
+                    </div>
+                    <div class="top-dishes-info">
+                        <h3 class="top-dishes-item-title">Vegan salad bowl</h3>
+                        <h3 class="top-dishes-item-price">$12</h3>
+                        <div class="top-dishes-threestars">
+                            <img src="images/3star.png">
+                        </div>
+                    </div>
+                </div>
+                <div class="top-dishes-item">
+                    <div class="top-dishes-item-img">
+                        <img src="images/pexels-silvia-trigo-1296170.jpg">
+                    </div>
+                    <div class="top-dishes-info">
+                        <h3 class="top-dishes-item-title">Vegan salad bowl</h3>
+                        <h3 class="top-dishes-item-price">$12</h3>
+                        <div class="top-dishes-threestars">
+                            <img src="images/3star.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="discount" data-aos="fade-up" data-aos-duration="1000" style="margin-top: -80px;">
+        <div class="container">
+            <div class="discount-wrapper">
+                <div class="discount-images">
+                    <div class="discount-img1">
+                        <img src="images/pexels-markus-spiske-369267.jpg">
+                    </div>
+                    <div class="discount-img2">
+                        <img src="images/pexels-karley-saagi-4902634.jpg">
+                    </div>
+                    <div class="discount-img3">
+                        <img src="images/pexels-karolina-grabowska-4202952.jpg">
+                    </div>
+                </div>
+                <div class="discount-info">
+                    <h3 class="discount-text">20% Off</h3>
+                    <h3 class="discount-title">Demo Dish For Discount</h3>
+                    <h3 class="discount-price">
+                        <span class="discount-oldprice">
+                            $45
+                        </span>
+                        <span class="discount-newprice">
+                            $35
+                        </span>
+                    </h3>
+                    <div class="discount-stars">
+                        <img src="images/3star.png">
+                    </div>
+                    <a href="booking.html" class="btn primary-btn">Book Table</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="book-event" style="margin-top: -100px;" data-aos="fade-up" data-aos-duration="1000">
+        <div class="container">
+            <div class="book-event-wrapper">
+                <div class="book-event-left">
+                    <div class="book-event-item">
+                        <div class="book-event-item-image">
+                            <img src="images/event-corporate.png">
+                        </div>
+                        <div class="book-event-item-info">
+                            <h3 class="book-event-info-title">
+                                Corporate Events
+                            </h3>
+                            <h3 class="book-event-item-desc">
+                                Shaif's Cuisine is the perfect venue for your corporate events. We specialize in private parties.
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="book-event-item">
+                        <div class="book-event-item-image">
+                            <img src="images/event-weedings.png">
+                        </div>
+                        <div class="book-event-item-info">
+                            <h3 class="book-event-info-title">
+                                Weddings
+                            </h3>
+                            <h3 class="book-event-item-desc">
+                                Shaif's Cuisine offers an intimately unique wedding experience set in a spectacular setting that is sophisticated and comfortable.
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="book-event-right">
+                    <h2 class="book-event-right-title">
+                        Book For Event
+                    </h2>
+                    <h3 class="book-event-right-desc">
+                        Book your private event or corporate function at Shaif's cuisine to experience a truly unique experience.
+                    </h3>
+                    <a class="book-event-booktable btn primary-btn" href="booking.html">Contact now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="why-us">
+        <div class="container">
+            <div class="why-us-wrapper">
+                <div class="why-us-left" data-aos="fade-right" data-aos-duration="1000">
+                    <h2 class="why-us-left-title">
+                        Why Choose Our Candies
+                    </h2>
+                    <h3 class="why-us-left-desc">
+                        Quality of Service, Food, Ambiance, and Value of Money are the primary elements for choosing a restaurant. Shaif's Cuisine is one of the most exquisite fine-dinning restaurant in Chittagong cities with a captivating view of GEC Hills, perfect ambiance, and scrumptious food.
+                    </h3>
+                </div>
+                <div class="why-us-right" data-aos="fade-left" data-aos-duration="1000">
+                    <div class="why-us-right-wrapper">
+                        <div class="why-us-right-item">
+                            <div class="why-us-item-image">
+                                <img src="images/icons8-express-shopping-64.png">
+                            </div>
+                            <h2 class="why-us-item-desc">Fast Shopping</h2>
+                        </div>
+                        <div class="why-us-right-item">
+                            <div class="why-us-item-image">
+                                <img src="images/icons8-chef-64.png">
+                            </div>
+                            <h2 class="why-us-item-desc">Skilled Chef</h2>
+                        </div>
+                        <div class="why-us-right-item">
+                            <div class="why-us-item-image">
+                                <img src="images/icons8-bestseller-50.png">
+                            </div>
+                            <h2 class="why-us-item-desc">Best Quality</h2>
+                        </div>
+                        <div class="why-us-right-item">
+                            <div class="why-us-item-image">
+                                <img src="images/icons8-service-64.png">
+                            </div>
+                            <h2 class="why-us-item-desc">Best Services</h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="customers" data-aos="fade-up" data-aos-duration="1000">
+        <div class="container">
+            <h2 class="customers-title">What Our Customers Say</h2>
+            <div class="customers-wrapper">
+                <div class="customer-item">
+                    <div class="customers-item-image">
+                        <img src="images/pexels-luc-marshall-1427889.jpg">
+                    </div>
+                    <div class="customers-item-info">
+                        <h3 class="customers-item-title">
+                            Seyed Amirhosein
+                        </h3>
+                        <h3 class="customers-item-desc">
+                            "from start to finish, lovely experience. Hostess very pleasant, wait staff john was wonderful and attentive, food plentiful and delicious, desserts out of this world"
+                        </h3>
+                    </div>
+                </div>
+                <div class="customer-item">
+                    <div class="customers-item-image">
+                        <img src="images/pexels-luc-marshall-1427889.jpg">
+                    </div>
+                    <div class="customers-item-info">
+                        <h3 class="customers-item-title">
+                            Seyed Amirhosein
+                        </h3>
+                        <h3 class="customers-item-desc">
+                            "from start to finish, lovely experience. Hostess very pleasant, wait staff john was wonderful and attentive, food plentiful and delicious, desserts out of this world"
+                        </h3>
+                    </div>
+                </div>
+                <div class="customer-item">
+                    <div class="customers-item-image">
+                        <img src="images/pexels-luc-marshall-1427889.jpg">
+                    </div>
+                    <div class="customers-item-info">
+                        <h3 class="customers-item-title">
+                            Seyed Amirhosein
+                        </h3>
+                        <h3 class="customers-item-desc">
+                            "from start to finish, lovely experience. Hostess very pleasant, wait staff john was wonderful and attentive, food plentiful and delicious, desserts out of this world"
+                        </h3>
+                    </div>
+                </div>
+                <div class="customer-item">
+                    <div class="customers-item-image">
+                        <img src="images/pexels-luc-marshall-1427889.jpg">
+                    </div>
+                    <div class="customers-item-info">
+                        <h3 class="customers-item-title">
+                            Seyed Amirhosein
+                        </h3>
+                        <h3 class="customers-item-desc">
+                            "from start to finish, lovely experience. Hostess very pleasant, wait staff john was wonderful and attentive, food plentiful and delicious, desserts out of this world"
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="footer-wrapper">
+                <div class="footer-col1">
+                    <div>
+                        <img src="images/mylogo.png" class="footer-logo">
+                        <p class="footer-desc" style="font-family: Poppins;line-height:22px">Fresh and delicious traditional Bangladeshi food to delight the whole family.</p>
+                    </div>
+                    <div class="footer-social">
+                        <h3 class="footer-title">Follow Us</h3>
+                        <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-telegram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-col2">
+                    <h3 class="footer-title">Links</h3>
+                    <div class="footer-links">
+                        <a href="index.html" style="display:block;">Home</a>
+                        <a href="menu.html" style="display:block;">Menu</a>
+                        <a href="booking.html" style="display:block;">Book Table</a>
+                        <a href="about.html" style="display:block;">About us</a>
+                        <a href="contact.html" style="display:block;">Contact us</a>
+                        <a href="#">privacy policy</a>
+                    </div>
+                </div>
+                <div class="footer-col3">
+                    <h3 class="footer-title">Support</h3>
+                    <div class="footer-supports">
+                        <a href="contact.html" style="display:block;">Contact</a>
+                        <a href="#" style="display:block;">Support Center</a>
+                        <a href="#" style="display:block;">Feedback</a>
+                    </div>
+                </div>
+                <div class="footer-col4">
+                    <h3 class="footer-title">Contact</h3>
+                    <div class="footer-contact">
+                        <a href="#" style="display:block;">091222222</a>
+                        <a href="#" style="display:block;">website@gmail.com</a>
+                        <a href="#" style="display:block;">iran, qazvin, felesteen street</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>   
+    <script src="main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
+</body>
+</html>

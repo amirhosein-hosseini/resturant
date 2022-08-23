@@ -1,0 +1,84 @@
+.our-story-wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.our-story-title{
+    margin-top: 10px;
+    margin-bottom: 15px;
+    font-size: 18px;
+    font-family: Poppins;
+    color: #471b10;
+}
+.our-story-desc{
+    color: #471b10;
+    font-family: Raleway;
+    font-size: 14px;
+    line-height: 20px;
+}
+@media only screen and (min-width:768px){
+    .our-story-wrapper{
+        flex-direction: row;
+        gap: 40px;
+    }
+    .our-story-image{
+        flex: 1;
+    }
+    .our-story-info{
+        flex: 1;
+    }
+    
+    .our-story-title{
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+    .our-story-desc{
+        font-size: 18px;
+        line-height: 24px;
+    }
+}
+.our-teams-title{
+    font-size: 18px;
+    font-family: Poppins;
+    color: #471b10;
+    margin-bottom: 10px;
+    text-align: left;
+}
+.our-teams-desc{
+    font-size: 14px;
+    font-family: Raleway;
+    color: #471b10;
+    text-align: left;
+    line-height: 20px;
+    margin-bottom: 50px;
+}
+.our-teams-images img{
+    object-fit: cover;
+}
+.our-teams-images{
+    max-width: 800px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-row: auto;
+    gap: 10px;
+}
+.img1{
+    grid-row: 1/3;
+}
+@media only screen and (min-width:768px){
+    .our-teams-title{
+        font-size: 36px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    .our-teams-desc{
+        font-size: 18px;
+        text-align: center;
+        line-height: 24px;
+        max-width: 800px;
+        margin: 0 auto;
+        margin-bottom: 60px;
+    }
+}
